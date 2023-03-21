@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>DP Verify</title>
+    <link rel="stylesheet" href="style.css">
+
+  </head>
+
+  <body>
+    <center>
+     
+        <label for="model" class="para">Choose a model:</label> <br><br>
+
+
+        <select name="model" id="model" class="selectS">
+            <option value="Magnus EX">Magnus EX</option>
+            <option value="Zeal EX">Zeal EX</option>
+            <option value="Primus">Primus</option>
+           
+        </select>
+        <br>
+        <br>
+        <label for="scheme" class="para">Choose a scheme:</label> <br><br>
+
+        <select name="scheme" id="scheme" class="selectS">
+            <option value="Low cost">Low cost </option>
+            <option value="NO HP">NO HP</option>
+            <option value="Regular">Regular</option>
+           
+        </select>
+        <br>
+        <br>
+        
+        <p class="para">Any additions ? </p><br>
+        <input type="checkbox" name="VMC" value="VMC" class="addition" id="VMC"><br><br>
+        <label for="VMC"> VMC</label><br><br>
+        <input type="checkbox" name="RSA" value="RSA" class="addition" ID="RSA"><br><br>
+        <label for="RSA"> RSA</label><br><br>
+        <input type="checkbox" name="EX Warr" value="EX Warr" class="addition" ID="EX Warr"><br><br>
+        <label for="EX Warr"> EX Warr</label><br><br>
+
+        <p class="para">Net disbursal </p><br>
+        <input type="number" id="netDisbursal" class="css-input"><br/>
+
+
+        
+        <button type="button" onclick="dpCalc();" class="btn">Calculate</button>
+        <br/><br/>
+
+        
+        <p class="para">Down Payment</p><br/>
+        <p id="downpayment" class="output"></p><br/>
+      
+        
+
+    </center>
+    <script src="index.js"></script>
+
+</body>
+
+
+
+
+
+
+
+
+
+
+
+</html>
