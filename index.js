@@ -22,19 +22,19 @@ function dpCalc(){
 
 
     if (model=="Magnus EX" & vmcT===true){
-        vehiclePrice=93850
+        vehiclePrice=98850
     }
     if (model=="Zeal EX" & vmcT===true){
-        vehiclePrice=85300
+        vehiclePrice=89300
     }
     if(model=="Primus" & vmcT===true){
         vehiclePrice=132900
     }
     if(model=="Magnus EX" & vmcT===false){
-        vehiclePrice=92365
+        vehiclePrice=97365
     }
     if(model=="Zeal EX" & vmcT===false){
-        vehiclePrice=83897
+        vehiclePrice=87897
     }
     if(model=="Primus" & vmcT===false){
         vehiclePrice=130956
